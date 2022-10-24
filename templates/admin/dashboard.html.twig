@@ -1,0 +1,17 @@
+{% extends "@EasyAdmin/page/content.html.twig" %}
+
+{% block content %}
+    <div class="container">
+        <div class="col-sm">
+            <p class="lead">Товары в формате json:</p>
+        </div>
+        <div class="col-sm">
+            <pre>
+                {{ products }}
+            </pre>
+        </div>
+    </div>
+{#    <p class="lead">#}
+{#        {{ products }}#}
+{#    </p>#}
+{% endblock %}
